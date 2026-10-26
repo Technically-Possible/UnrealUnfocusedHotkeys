@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Unfocused Hotkeys",
+	"Description": "Fires a Blueprint event when a chosen global hotkey is pressed, even while the game is not focused. Windows only.",
+	"Category": "Input",
+	"CreatedBy": "Jenn.zip",
+	"CreatedByURL": "https://github.com/Technically-Possible",
+	"DocsURL": "https://github.com/Technically-Possible/UnrealUnfocusedHotkeys",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/Technically-Possible/UnrealUnfocusedHotkeys/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Modules": [
+		{
+			"Name": "UnfocusedHotkeys",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64" ]
+		}
+	]
+}
