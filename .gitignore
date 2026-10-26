@@ -1,0 +1,17 @@
+# Unreal build output (rebuilt locally or by Scripts/Package.ps1)
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Release zips are attached to GitHub Releases, never committed
+dist/
+*.zip
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
