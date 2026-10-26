@@ -72,6 +72,14 @@ A–Z, 0–9, F1–F12, Space, Enter, Escape, Tab, Backspace, Insert, Delete, Ho
 - **Some combos are reserved.** Windows keeps many Win-key shortcuts for itself, and other apps (Discord, OBS, and so on) may already own a combo. In both cases **Set Global Hot Key** returns `false`.
 - **Win64 only.** The module doesn't load on other platforms, so keep Blueprints that use it out of builds for other platforms.
 
+## Building a release
+
+Maintainers: see [RELEASING.md](RELEASING.md). In short, this command builds and zips the plugin into `dist/`:
+
+```powershell
+.\Scripts\Package.ps1 -EngineDir "C:\Program Files\Epic Games\UE_5.8"
+```
+
 ## License
 
 [MIT](LICENSE) © 2026 Jenn.zip

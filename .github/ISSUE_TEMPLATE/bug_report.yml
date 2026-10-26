@@ -1,0 +1,39 @@
+name: Bug report
+description: Something isn't working as expected
+labels: [bug]
+body:
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: engine-version
+    attributes:
+      label: Unreal Engine version
+      placeholder: "5.8.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How did you install it?
+      options:
+        - Prebuilt zip from Releases
+        - From source
+    validations:
+      required: true
+  - type: input
+    id: hotkey
+    attributes:
+      label: Key and modifiers used
+      placeholder: "Ctrl + Alt + K"
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you expected, what happened instead, and whether it was in the editor (PIE) or a packaged game. Add a screenshot of your Blueprint if you can.
+    validations:
+      required: true
